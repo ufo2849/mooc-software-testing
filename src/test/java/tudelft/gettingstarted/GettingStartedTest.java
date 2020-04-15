@@ -14,12 +14,11 @@ public class GettingStartedTest {
 		g = new GettingStarted();
 	}
 	
-//	@Disabled
-//    @Test
-//    public void addFiveTo20() {
-//        int result = g.addFive(20);
-//        Assertions.assertEquals(25,result);
-//    }
+    @Test
+    public void addFiveTo20() {
+        int result = g.addFive(20);
+        Assertions.assertEquals(25,result);
+    }
 
 //    UNCOMMENT THE CODE BELOW, AND FILL THE GAPS!
 
@@ -34,4 +33,14 @@ public class GettingStartedTest {
         int result = new GettingStarted().addFive(-20);
         Assertions.assertEquals(-15,result);
     }
+    
+//    @Test
+//    public void badpractice() {
+//    	int result = g.addFive(0);
+//    	Assertions.assertEquals(5, result);
+//    	result = g.addFive(1);
+//    	Assertions.assertEquals(6, result);
+//    	result = g.addFive(6);
+//    	Assertions.assertEquals(11, result);
+//    }    
 }
